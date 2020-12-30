@@ -1,0 +1,15 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+<div style="padding-left: 20px;">
+    <h2>Categories</h2>
+
+    <div style="padding-left: 20px;" >
+     {% for cat in category %}
+        <div>
+            <a href="/category/{{cat}}/list">{{cat}}</a>
+        </div>
+     {% endfor %}
+    </div>
+    </div>
+{% endblock %}

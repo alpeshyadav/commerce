@@ -1,0 +1,13 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+
+    <form action="{% url 'addcategory' %}" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <input class="form-control" autofocus type="text" name="name" placeholder="Name">
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+
+{% endblock %}

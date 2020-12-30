@@ -1,0 +1,20 @@
+body {
+    padding: 10px;
+}
+body{
+    background-color: #E6E9ED;
+  }
+
+.productdetailbox{
+
+    .fig, .main{
+      height: 300px;
+    }
+    .fig img{
+      width: 100%;
+      max-height: 300px;
+    }
+  }
+.nav-link {
+    display: inline !important;
+}
